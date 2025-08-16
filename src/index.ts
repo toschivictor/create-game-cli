@@ -36,19 +36,19 @@ async function main() {
     message: 'Choose a project template:',
     options: [
       {
-        value: 'basic',
-        label: 'Basic Game',
-        hint: 'Simple Pixi.js setup with basic game loop',
+        value: 'scratch-card',
+        label: 'Scratch Card Game',
+        hint: 'Interactive scratch card game with Pixi.js and Zustand',
       },
       {
-        value: 'platformer',
-        label: 'Platformer',
-        hint: 'Basic platformer with physics and player controller',
+        value: 'slot-game',
+        label: 'Slot Machine Game',
+        hint: 'Classic slot machine with reels, symbols, and paylines',
       },
       {
-        value: 'top-down',
-        label: 'Top-down',
-        hint: 'Top-down game with movement and basic interactions',
+        value: 'pixi-react',
+        label: 'Pixi.js + React Game',
+        hint: 'Game template using Pixi.js with React integration',
       },
     ],
   })
