@@ -1,0 +1,45 @@
+{
+  "name": "create-game-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to create Pixi.js games with TypeScript and Vite configuration",
+  "main": "dist/index.js",
+  "bin": {
+    "create-game": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js",
+    "lint": "biome lint .",
+    "format": "biome format . --write",
+    "check": "biome check . --write"
+  },
+  "keywords": [
+    "cli",
+    "pixijs",
+    "game-development",
+    "typescript",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.17.6",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ]
+}
