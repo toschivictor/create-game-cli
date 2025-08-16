@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { intro, outro, text, select, confirm, spinner, isCancel, cancel } from '@clack/prompts'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
