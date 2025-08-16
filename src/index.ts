@@ -9,16 +9,19 @@ const __dirname = path.dirname(__filename)
 async function main() {
   console.clear()
 
-  intro('🎮 Create Game CLI')
+  intro('Create Game CLI')
 
   // Get project name
   const projectName = await text({
     message: 'What is your project name?',
     placeholder: 'my-awesome-game',
     validate(value) {
-      if (!value) return 'Project name is required!'
+      if (!value) {
+        return 'Project name is required!'
+      }
+
       if (!/^[a-z0-9-_]+$/i.test(value)) {
-        return 'Project name can only contain letters, numbers, hyphens, and underscores'
+        return 'Project name can only contain letters, numbers, hyphens, and underscores.'
       }
     },
   })
@@ -61,7 +64,9 @@ async function main() {
     placeholder: `./${projectName}`,
     initialValue: `./${projectName}`,
     validate(value) {
-      if (!value) return 'Target directory is required!'
+      if (!value) {
+        return 'Target directory is required!'
+      }
     },
   })
 
