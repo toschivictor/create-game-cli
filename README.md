@@ -69,22 +69,30 @@ Happy coding! 🚀
 
 ## Templates
 
-### Basic Game
-- Simple game setup with a moveable green square
-- Basic input handling (WASD/Arrow keys)
-- Good starting point for any type of game
+### Pixi React
+- React-based game development with Pixi.js
+- Component-based architecture for game objects
+- Scene management with multiple game states
+- Includes: Menu, Game, and Game Over scenes
+- Custom hooks for game loop and keyboard input
+- State management with game store
+- Perfect for interactive web games
 
-### Platformer
-- Physics-based movement with gravity and jumping
-- Platform collision detection
-- Blue character that can jump on platforms
-- Controls: A/D for movement, W/Up/Space for jumping
+### Scratch Card
+- Scratch card game template with reveal mechanics
+- Scene-based architecture with loading, menu, game, and result scenes
+- Game manager for state coordination
+- Modular component system
+- Built-in UI components (buttons, etc.)
+- Ideal for lottery, promotional, or reward games
 
-### Top-Down
-- 8-directional movement with smooth rotation
-- Obstacle collision detection
-- Red triangle character that rotates to face movement direction
-- Controls: WASD/Arrow keys for movement
+### Slot Game
+- Slot machine game template with spinning reels
+- Complete game flow: loading → menu → game → results
+- Scene router for smooth transitions
+- Game manager for slot machine logic
+- Reusable UI components
+- Perfect for casino-style games or gambling mechanics
 
 ## Generated Project Structure
 
