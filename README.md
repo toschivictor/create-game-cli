@@ -4,12 +4,12 @@ A command-line tool to quickly scaffold Pixi.js game projects with TypeScript, V
 
 ## Features
 
-- 🎮 **Multiple Templates**: Choose from Basic, Platformer, or Top-Down game templates
-- 🔧 **TypeScript Support**: Full TypeScript configuration with strict mode
-- ⚡ **Vite Integration**: Fast development server and optimized builds
-- 🎨 **Code Quality**: Pre-configured with Biome for linting and formatting
-- 📦 **Modern Tooling**: Uses latest versions of Pixi.js and development tools
-- 🚀 **Ready to Run**: Generated projects work immediately with `npm run dev`
+- **Multiple Templates**: Choose from Basic, Platformer, or Top-Down game templates
+- **TypeScript Support**: Full TypeScript configuration with strict mode
+- **Vite Integration**: Fast development server and optimized builds
+- **Code Quality**: Pre-configured with Biome for linting and formatting
+- **Modern Tooling**: Uses latest versions of Pixi.js and development tools
+- **Ready to Run**: Generated projects work immediately with `npm run dev`
 
 ## Installation
 
@@ -135,40 +135,11 @@ npm run lint
 npm run check
 ```
 
-## Technologies Used
-
-### CLI Tool
-- **Node.js**: Runtime environment
-- **TypeScript**: Type safety and modern JavaScript features
-- **@clack/prompts**: Beautiful interactive CLI prompts
-- **fs-extra**: Enhanced file system operations
-- **tsup**: Fast TypeScript bundler
-- **Biome**: Code formatting and linting
-
-### Generated Projects
+## Generated Projects
 - **Pixi.js**: High-performance 2D rendering engine
 - **TypeScript**: Type safety for game development
 - **Vite**: Fast development server and build tool
 - **Biome**: Consistent code style and quality
-
-## Requirements
-
-- Node.js 18.0.0 or higher
-- npm (comes with Node.js)
-
-## License
-
-MIT License - see LICENSE file for details.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Run tests and ensure code quality: `npm run check`
-5. Commit your changes: `git commit -m 'Add feature'`
-6. Push to the branch: `git push origin feature-name`
-7. Submit a pull request
 
 ## Roadmap
 
@@ -181,5 +152,3 @@ MIT License - see LICENSE file for details.
 - [ ] Multiplayer template with WebSockets
 
 ---
-
-Made with ❤️ for game developers
