@@ -1,0 +1,20 @@
+{
+  "name": "game-base",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 5173"
+  },
+  "dependencies": {
+    "pixi.js": "^8.4.1",
+    "gsap": "^3.12.5",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.2"
+  }
+}

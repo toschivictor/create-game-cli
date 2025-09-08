@@ -86,14 +86,6 @@ Happy coding! 🚀
 - Built-in UI components (buttons, etc.)
 - Ideal for lottery, promotional, or reward games
 
-### Slot Game
-- Slot machine game template with spinning reels
-- Complete game flow: loading → menu → game → results
-- Scene router for smooth transitions
-- Game manager for slot machine logic
-- Reusable UI components
-- Perfect for casino-style games or gambling mechanics
-
 ## Generated Project Structure
 
 ```
